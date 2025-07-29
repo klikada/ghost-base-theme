@@ -1,0 +1,66 @@
+{{!< default}}
+
+<section class="activity-section">
+  <div class="swiper myActivitySwiper">
+    <div class="swiper-wrapper">
+
+      {{!-- Slide 1 --}}
+      <div class="swiper-slide">
+        <div class="activity-card">
+          <img class="activity-img" src="{{asset 'images/activity1.png'}}" alt="Activity 1">
+          <div class="activity-content">
+            <h2 class="activity-title">Activity 1</h2>
+            <p class="activity-excerpt">
+              Setiap hari PKL tuh kaya simulasi dunia kerja beneran, dari yang awalnya nggak paham apa-apa, pelan-pelan belajar handle project, komunikasi sama tim, dan akhirnya ngerti gimana rasanya dapet kepercayaan buat nyelesaiin tugas sampai tuntas.
+            </p>
+            <div class="activity-btn-wrapper">
+              <a href="/activity/1" class="activity-btn">Continue Reading</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {{!-- Slide 2 --}}
+      <div class="swiper-slide">
+        <div class="activity-card">
+          <img class="activity-img" src="{{asset 'images/activity2.jpg'}}" alt="Activity 2">
+          <div class="activity-content">
+            <h2 class="activity-title">Activity 2</h2>
+            <p class="activity-excerpt">Haloooo.</p>
+            <div class="activity-btn-wrapper">
+              <a href="/activity/2" class="activity-btn">Continue Reading</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Pagination Bullets -->
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+{{#contentFor "styles"}}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="{{asset "css/activity.css"}}" />
+{{/contentFor}}
+
+{{#contentFor "scripts"}}
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const swiper = new Swiper(".myActivitySwiper", {
+        loop: true,
+        autoplay: { delay: 3000 },
+        slidesPerView: 1,
+        spaceBetween: 30,
+        centeredSlides: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    });
+  </script>
+{{/contentFor}}

@@ -1,10 +1,15 @@
 # ghost-base-theme
 
-Ghost CMS Base Theme by Colaboration klikada.com and PKL RPL SMKN 1 Boyolangu
+**Ghost Base Theme** adalah tema dasar untuk Ghost CMS yang dikembangkan melalui kolaborasi antara [klikada.com](https://klikada.com) dan tim PKL RPL SMKN 1 Boyolangu. Tema ini dirancang untuk memberikan fondasi yang solid, fleksibel, dan mudah dikembangkan sesuai kebutuhan website modern.
 
-We are in the Project :
+## Tentang Proyek
 
-1. Pak Denny Rakhmad Widi Ashari @dennyrwa 
-2. Patricia Dewi Anggraini @patriciabytes
-3. Silfia Azizatul Khasanah @silfiazi
-4. Zaidane Al Gavrilla @ZaidaneAlGavrilla
+Proyek ini merupakan hasil kerja sama antara profesional industri dan siswa PKL, bertujuan untuk menghasilkan tema Ghost CMS yang berkualitas, responsif, dan mudah dikustomisasi.
+
+**Tim Pengembang:**
+- Pak Denny Rakhmad Widi Ashari [@dennyrwa](https://github.com/dennyrwa)
+- Patricia Dewi Anggraini [@patriciabytes](https://github.com/patriciabytes)
+- Silfia Azizatul Khasanah [@silfiazi](https://github.com/silfiazi)
+- Zaidane Al Gavrilla [@ZaidaneAlGavrilla](https://github.com/ZaidaneAlGavrilla)
+
+Jadikan tema ini sebagai fondasi untuk membangun website Ghost CMS

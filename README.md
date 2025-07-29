@@ -21,4 +21,3 @@ Jadikan tema ini sebagai fondasi untuk membangun website Ghost CMS
 3. Silfia Azizatul Khasanah @silfiazi
 4. Zaidane Al Gavrilla @ZaidaneAlGavrilla
 5. Cheyril Athiyya Devrilia @ch4ryll
-

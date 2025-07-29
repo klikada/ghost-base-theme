@@ -1,0 +1,42 @@
+<footer class="footer">
+    {{#if @site.secondary_navigation}}
+        <div class="footer-nav">
+            {{navigation type="secondary"}}
+        </div>
+    {{/if}}
+    <div class="footer-social">
+        {{#if @site.facebook}}
+            <a href="{{facebook_url}}" target="_blank" rel="noopener" aria-label="Facebook">
+                {{> "icons/facebook"}}
+            </a>
+        {{/if}}
+        {{#if @site.twitter}}
+            <a href="{{twitter_url}}" target="_blank" rel="noopener" aria-label="X">
+                {{> "icons/x"}}
+            </a>
+        {{/if}}
+        {{#if @custom.instagram_profile}}
+            <a href="{{@custom.instagram_profile}}" target="_blank" rel="noopener" aria-label="Instagram">
+                {{> "icons/instagram"}}
+            </a>
+        {{/if}}
+        {{#if @custom.bluesky_profile}}
+            <a href="{{@custom.bluesky_profile}}" target="_blank" rel="noopener" aria-label="Bluesky">
+                {{> "icons/bluesky"}}
+            </a>
+        {{/if}}
+        {{#if @custom.linkedin_profile}}
+            <a href="{{@custom.linkedin_profile}}" target="_blank" rel="noopener" aria-label="LinkedIn">
+                {{> "icons/linkedin"}}
+            </a>
+        {{/if}}
+    </div>
+    <div class="footer-info">
+        <p class="footer-copyright">
+            <a href="{{@site.url}}">{{@site.title}}</a> &copy; {{date format="YYYY"}}. <br /> {{{t "Published with {ghostlink}. Scriptor theme by {jgtlink}." ghostlink="<a target=\"_blank\" href=\"https://ghost.org\" rel=\"noopener\">Ghost</a>" jgtlink="<a target=\"_blank\" href=\"https://justgoodthemes.com/\" rel=\"noopener\">Just Good Themes</a>" }}}
+        </p>
+        <a href="#page" class="footer-top-btn" aria-label="{{t "Back to the top"}}">
+            {{> "icons/arrow-up"}}
+        </a>
+    </div>
+</footer>

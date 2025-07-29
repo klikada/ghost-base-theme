@@ -4,6 +4,7 @@
 
 ## Tentang Proyek
 
+
 Proyek ini merupakan hasil kerja sama antara profesional industri dan siswa PKL, bertujuan untuk menghasilkan tema Ghost CMS yang berkualitas, responsif, dan mudah dikustomisasi.
 
 **Tim Pengembang:**
@@ -11,5 +12,13 @@ Proyek ini merupakan hasil kerja sama antara profesional industri dan siswa PKL,
 - Patricia Dewi Anggraini [@patriciabytes](https://github.com/patriciabytes)
 - Silfia Azizatul Khasanah [@silfiazi](https://github.com/silfiazi) [@beeraksi](https://github.com/beeraksi)
 - Zaidane Al Gavrilla [@ZaidaneAlGavrilla](https://github.com/ZaidaneAlGavrilla)
+- Cheyril Athiyya Devrilia [@ch4ryll](https://github.com/ch4ryll)
 
 Jadikan tema ini sebagai fondasi untuk membangun website Ghost CMS
+
+1. Pak Denny Rakhmad Widi Ashari @dennyrwa 
+2. Patricia Dewi Anggraini @patriciabytes
+3. Silfia Azizatul Khasanah @silfiazi
+4. Zaidane Al Gavrilla @ZaidaneAlGavrilla
+5. Cheyril Athiyya Devrilia @ch4ryll
+(Menambahkan nama Cheyril Athiyya Devrilia @ch4ryll ke README.md)

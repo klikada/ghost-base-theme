@@ -9,7 +9,7 @@ Proyek ini merupakan hasil kerja sama antara profesional industri dan siswa PKL,
 **Tim Pengembang:**
 - Pak Denny Rakhmad Widi Ashari [@dennyrwa](https://github.com/dennyrwa)
 - Patricia Dewi Anggraini [@patriciabytes](https://github.com/patriciabytes)
-- Silfia Azizatul Khasanah [@silfiazi](https://github.com/silfiazi)
+- Silfia Azizatul Khasanah [@silfiazi](https://github.com/silfiazi) (https://github.com/beeraksi)
 - Zaidane Al Gavrilla [@ZaidaneAlGavrilla](https://github.com/ZaidaneAlGavrilla)
 
 Jadikan tema ini sebagai fondasi untuk membangun website Ghost CMS

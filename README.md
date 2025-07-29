@@ -7,3 +7,4 @@ We are in the Project
 1. Pak Denny Rakhmad Widi Ashari @dennyrwa 
 2. Patricia Dewi Anggraini @patriciabytes
 3. Silfia Azizatul Khasanah @beeraksi
+4. Zaidane Al Gavrilla @ZaidaneAlGavrilla

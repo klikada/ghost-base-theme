@@ -4,7 +4,6 @@
 
 ## Tentang Proyek
 
-
 Proyek ini merupakan hasil kerja sama antara profesional industri dan siswa PKL, bertujuan untuk menghasilkan tema Ghost CMS yang berkualitas, responsif, dan mudah dikustomisasi.
 
 **Tim Pengembang:**

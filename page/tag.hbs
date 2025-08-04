@@ -1,0 +1,16 @@
+{{!< default}}
+
+<main class="">
+    {{!-- Judul halaman sesuai nama tag --}}
+    {{#tag}}
+    <header class="">
+        <h1 class="page-title">
+            {{plural ../pagination.total empty=(t "Tidak ada postingan di") singular=(t "% postingan di") plural=(t "% postingan di")}} 
+            <span class="page-title-highlight">{{name}}</span>
+        </h1>
+    </header>
+    {{/tag}}
+
+    {{!-- Daftar postingan berdasarkan tag --}}
+    {{> "loop"}}
+</main>

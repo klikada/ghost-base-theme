@@ -1,0 +1,16 @@
+<article class="post-card">
+    <header class="post-card-header">
+        <h2 class="post-card-title">
+            <a href="{{url}}">{{title}}</a>
+        </h2>
+    </header>
+    <section class="post-card-excerpt">
+        <p>{{excerpt words="30"}} <a class="read-more" href="{{url}}">...</a></p>
+    </section>
+    <footer class="post-card-meta">
+        <div class="post-card-meta-content">
+            <span class="post-card-author"><a href="{{primary_author.url}}">{{primary_author.name}}</a></span>
+            <span class="post-card-date">{{date published_at format="D MMMM YYYY"}}</span>
+        </div>
+    </footer>
+</article>

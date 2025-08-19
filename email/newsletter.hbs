@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{post.title}}</title>
+</head>
+<body style="font-family: sans-serif; line-height: 1.6; color: #333;">
+
+    <div style="max-width: 600px; margin: auto; padding: 20px;">
+        <h1 style="color: #000;">{{post.title}}</h1>
+        <p style="font-size: 14px; color: #888;">Dipublikasikan pada {{date post.published_at format="D MMMM YYYY"}}</p>
+        <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
+        <div style="font-size: 16px;">
+            {{{post.html}}}
+        </div>
+    </div>
+
+</body>
+</html>

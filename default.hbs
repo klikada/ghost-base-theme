@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{@site.locale}}">
+<head>
+    {{!-- Meta Tags --}}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {{!-- Dynamic Meta Tags --}}
+    <title>{{meta_title}}</title>
+    <link rel="canonical" href="{{canonical_url}}">
+    {{ghost_head}}
+
+    {{!-- CSS and Fonts --}}
+    {{!-- <link rel="stylesheet" type="text/css" href="{{asset "css/main.css"}}"> --}}
+</head>
+<body class="{{body_class}}">
+    {{!-- Main container --}}
+    <div class="site-wrapper">
+
+        {{!-- Header Partial --}}
+        {{> header}}
+
+        {{!-- All the content from other templates will be injected here --}}
+        {{{body}}}
+
+        {{!-- Footer Partial --}}
+        {{> footer}}
+
+    </div>
+
+    {{!-- Dynamic Scripts and Footer --}}
+    {{ghost_foot}}
+    <script src="{{asset "js/main.js"}}"></script>
+</body>
+</html>

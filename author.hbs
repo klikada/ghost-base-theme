@@ -1,0 +1,32 @@
+{{!< default}}
+
+{{#author}}
+<header class="author-header outer">
+    <div class="inner">
+        <div class="author-header-content">
+            {{#if profile_image}}
+            <img class="author-profile-image" src="{{profile_image}}" alt="{{name}}">
+            {{/if}}
+            <h1 class="author-title">{{name}}</h1>
+            {{#if bio}}
+                <h2 class="author-bio">{{bio}}</h2>
+            {{/if}}
+            <div class="author-meta">
+                <div class="author-location">{{location}}</div>
+                <div class="author-link"><a href="{{website}}">{{website}}</a></div>
+            </div>
+        </div>
+    </div>
+</header>
+{{/author}}
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+        <div class="post-feed">
+            {{!-- The loop partial --}}
+            {{#foreach posts}}
+                {{> "loop"}}
+            {{/foreach}}
+        </div>
+    </div>
+</main>

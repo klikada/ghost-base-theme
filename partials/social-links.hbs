@@ -1,0 +1,12 @@
+<ul class="social-links">
+    {{#if @site.facebook}}
+        <li class="social-links-item">
+            <a class="social-links-item-link social-links-item-link-facebook" href="https://www.facebook.com/{{@site.facebook}}" target="_blank" rel="noopener">{{! SVG for Facebook icon goes here }}</a>
+        </li>
+    {{/if}}
+    {{#if @site.twitter}}
+        <li class="social-links-item">
+            <a class="social-links-item-link social-links-item-link-twitter" href="https://twitter.com/{{@site.twitter}}" target="_blank" rel="noopener">{{! SVG for X/Twitter icon goes here }}</a>
+        </li>
+    {{/if}}
+</ul>

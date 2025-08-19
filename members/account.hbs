@@ -1,0 +1,28 @@
+{{!< default}}
+
+<main class="content" role="main">
+    <div class="inner">
+        {{#if member}}
+            <section class="account-form">
+                <h1 class="account-title">Halo, {{member.name}}!</h1>
+                <p class="account-email">{{member.email}}</p>
+
+                <form data-members-form="updateMember">
+                    {{#if @member.paid}}
+                        <a href="javascript:void(0);" data-members-manage-account>Kelola Langganan</a>
+                    {{else}}
+                        <p>Anda saat ini adalah anggota gratis.</p>
+                    {{/if}}
+                    <button type="submit" data-members-form="signout">Keluar</button>
+                </form>
+
+            </section>
+        {{else}}
+            <section class="account-form">
+                <h1 class="account-title">Anda harus masuk</h1>
+                <p>Silakan masuk untuk melihat halaman akun Anda.</p>
+                <a href="/signin/">Masuk</a>
+            </section>
+        {{/if}}
+    </div>
+</main>

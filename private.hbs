@@ -1,0 +1,14 @@
+{{!< default}}
+
+<main class="content" role="main">
+    <div class="inner">
+        <section class="private-form">
+            <h1 class="private-title">Konten ini dilindungi kata sandi</h1>
+            <p class="private-description">Silakan masukkan kata sandi di bawah ini untuk melihat kontennya.</p>
+            <form method="post" action="/ghost/api/v4/admin/private/login/" class="private-form-form">
+                <input type="password" name="password" placeholder="Kata sandi" class="private-form-input" required="required">
+                <button type="submit" class="private-form-button">Masuk</button>
+            </form>
+        </section>
+    </div>
+</main>

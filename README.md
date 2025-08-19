@@ -1,6 +1,6 @@
-# ghost-base-theme
+# pkl-2025-ghost-base-theme
 
-**Ghost Base Theme** adalah tema dasar untuk Ghost CMS yang dikembangkan melalui kolaborasi antara [klikada.com](https://klikada.com) dan tim PKL RPL SMKN 1 Boyolangu. Tema ini dirancang untuk memberikan fondasi yang solid, fleksibel, dan mudah dikembangkan sesuai kebutuhan website modern.
+**PKL 2025 Ghost Base Theme** adalah tema dasar untuk Ghost CMS yang dikembangkan melalui kolaborasi antara [klikada.com](https://klikada.com) dan tim PKL RPL SMKN 1 Boyolangu. Tema ini dirancang untuk memberikan fondasi yang solid, fleksibel, dan mudah dikembangkan sesuai kebutuhan website modern.
 
 ## Tentang Proyek
 
